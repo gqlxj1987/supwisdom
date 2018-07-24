@@ -65,7 +65,9 @@ a）elasticsearch， 请先改变参数文件（`/etc/elasticsearch/elasticsearc
    
 &nbsp;&nbsp;&nbsp; d）filebeat，请修改`/etc/filebeat/filebeat.yml` 参数，主要是读取日志文件的文件夹，和异常报错的多行参数，然后启动filebeat
   安装用下面的命令：
+  
   `sudo rpm --install xxx.rpm`
   启动命令：
+  
   `/usr/share/filebeat/bin/filebeat -e -c /etc/filebeat/filebeat.yml -d "publish"`
  
