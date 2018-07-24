@@ -102,15 +102,15 @@ kubectl apply -f datalook_core_svc.yaml
 
 1. [running your own docker images in minikube for windows][4]
 
-5. https://blog.csdn.net/w1491413492/article/details/78827819
+1. [windows 安装minikube注意事项][5]
 
-6. https://blog.csdn.net/levy_cui/article/details/70336283
+1. [k8s 深入掌握service][6]
 
-7. https://www.youtube.com/watch?v=RelPurLZnII
+1. [https://www.youtube.com/watch?v=RelPurLZnII][7]
 
-8. http://www.iqiyi.com/w_19ruztmqil.html
+1. [kubernetes 安装教程][8]
 
-9. http://lameleg.com/tech/install-k8s.html 
+1. [kubernetes 离线安装][9] 
 
 
 ## I 排障经验
@@ -144,3 +144,8 @@ kubectl apply -f datalook_core_svc.yaml
 [2]: https://segmentfault.com/a/1190000011707194
 [3]: https://github.com/trisberg/boot-k8s-microservices/tree/s1p2017
 [4]: https://medium.com/@maumribeiro/running-your-own-docker-images-in-minikube-for-windows-ea7383d931f6
+[5]: https://blog.csdn.net/w1491413492/article/details/78827819
+[6]: https://blog.csdn.net/levy_cui/article/details/70336283
+[7]: https://www.youtube.com/watch?v=RelPurLZnII
+[8]: http://www.iqiyi.com/w_19ruztmqil.html
+[9]: http://lameleg.com/tech/install-k8s.html
