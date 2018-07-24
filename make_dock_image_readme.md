@@ -44,7 +44,7 @@ pom.xml设置docker的plugin。 详细请看附录:[0].
 
 ## D 常用命令：
 
-1.列出镜像
+1. 列出镜像
 `docker images`
 
 1. 删除镜像
