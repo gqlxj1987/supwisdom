@@ -17,8 +17,14 @@
 ```
 ## B.
 私有镜像的[下载][1]:
+
 修改`/usr/lib/systemd/system/docker.service` 
-启动参数增加  `--add-registry=<域名>:<端口号> --insecure-registry=<域名>:<端口号>`
+
+启动参数增加  
+```
+  --add-registry=<域名>:<端口号> 
+  --insecure-registry=<域名>:<端口号>`
+```
 
 然后， 
      #装载修改后的参数
