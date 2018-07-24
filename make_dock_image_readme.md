@@ -43,11 +43,14 @@ pom.xml设置docker的plugin。 详细请看附录:[0].
 
 
 ## D 常用命令：
-#1.列出镜像
+
+1.列出镜像
 `docker images`
-#2. 删除镜像
+
+2. 删除镜像
 `docker rmi <镜像名：版本>或<镜像hash号>`
-#3. 取镜像
+
+3. 取镜像
 `docker pull <镜像名：版本>`
 
 ## E  排障经验
