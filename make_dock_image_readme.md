@@ -17,7 +17,7 @@
 ```
 ## B.
 私有镜像的[下载][1]:
-修改/usr/lib/systemd/system/docker.service 
+修改`/usr/lib/systemd/system/docker.service` 
 启动参数增加  `--add-registry=<域名>:<端口号> --insecure-registry=<域名>:<端口号>`
 
 然后， 
@@ -26,7 +26,7 @@
 	 #重新启动docker
      `systemctl restart docker` 
 
-	 用docker info命令来确认最后一行Registries:是否包含似有上面的仓库地址
+ 用docker info命令来确认最后一行Registries:是否包含似有上面的仓库地址
 
 
 ​	 
