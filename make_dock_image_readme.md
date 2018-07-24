@@ -16,7 +16,7 @@
 6. CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/app.jar"]
 ```
 ## B.
-私有镜像的下载，[参考][1]:
+私有镜像的[下载][1]:
 修改/usr/lib/systemd/system/docker.service 
 启动参数增加  `--add-registry=<域名>:<端口号> --insecure-registry=<域名>:<端口号>`
 
@@ -31,7 +31,7 @@
 
 ​	 
 ## C. 
-pom.xml设置docker的plugin。 详细请看[附录][0].
+pom.xml设置docker的plugin。 详细请看附录:[0].
 
 
 ## D 常用命令：
@@ -43,10 +43,10 @@ pom.xml设置docker的plugin。 详细请看[附录][0].
 `docker pull <镜像名：版本>`
 
 ## E  排障经验
-1. 如果有私有镜像，安装docker-ce的话，不能用B所阐述的方法。 docker安装请用命令yum -y install docker
+1. 如果有私有镜像，安装docker-ce的话，不能用B所阐述的方法。 docker安装请用命令`yum -y install docker`
 2. 下载镜像，取镜像或删除镜像，请一定要记住不要遗漏版本号，缺省值是最新的版本，即latest。
 
-[0]: 附录   
+/0/ 附录   
 ```
      <properties>
             <docker.image.repository>192.168.1.229:5000</docker.image.repository>
