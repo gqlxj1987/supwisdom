@@ -3,6 +3,7 @@
 					
 1. ELK 已经在一卡通ykt服务器部署完毕
 2. 根据先前和赵工（赵奎强）的沟通定义为以下三种格式：
+
 a) 标签为info是spring系统日志，例如：
 ```　
 2018-04-27 10:42:23 [RMI TCP Connection(10)-127.0.0.1] - INFO  - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
