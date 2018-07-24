@@ -1,7 +1,7 @@
 
 ## 日志ELK系统Readme
 					
-1. ELK 已经在一卡Ｉ通ｙｋｔ服务器部署完毕
+1. ELK 已经在一卡通ykt服务器部署完毕
 2. 根据先前和赵工（赵奎强）的沟通定义为以下三种格式：
 a) 标签为info是spring系统日志，例如：
 ```　
@@ -28,7 +28,7 @@ c) 标签为app-info-exception-info的多行异常日志，例如
 
 5. 视觉效果图，先要写查询语句，然后根据需求添加视觉效果图，视觉效果图可以存在dashboard里。
 
-6. 启动ELK： 请根据顺序
+6. 启动ELK： 请根据顺序 <br/>
 a）elasticsearch， 请先改变参数文件（`/etc/elasticsearch/elasticsearch.yml`的绑定（binding）参数。 
   安装用下面的命令：
   `sudo rpm --install elasticsearch-6.3.0.rpm`
