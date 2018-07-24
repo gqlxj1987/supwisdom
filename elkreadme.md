@@ -67,6 +67,7 @@ a）elasticsearch， 请先改变参数文件（`/etc/elasticsearch/elasticsearc
   安装用下面的命令：
   
   `sudo rpm --install xxx.rpm`
+  
   启动命令：
   
   `/usr/share/filebeat/bin/filebeat -e -c /etc/filebeat/filebeat.yml -d "publish"`
