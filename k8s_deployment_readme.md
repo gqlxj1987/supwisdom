@@ -1,6 +1,6 @@
 
 ## A 前提
- - centOS 7.3 或 以上安装 java， openjdk 8 或 Oracle jdk 8  参看 [参考文献] [1]      
+ - centOS 7.3 或 以上安装 java， openjdk 8 或 Oracle jdk 8  参看 [参考文献][1]      
  - &nbsp;安装 docker， yum install -y docker 
  - &nbsp; k8s.gcr.io 和 gcr.io    对应的国内镜像是 gcr.mirrors.ustc.edu.cn/google-containers
 
@@ -96,7 +96,7 @@ kubectl apply -f datalook_core_svc.yaml
 
 [how to install java on centos and fedora][1]
     
-2. https://segmentfault.com/a/1190000011707194
+[kubernetes 离线包安装指南][2]
 
 3. https://github.com/trisberg/boot-k8s-microservices/tree/s1p2017
 
@@ -140,4 +140,5 @@ kubectl apply -f datalook_core_svc.yaml
           annotations: nginx.ingress.kubernetes.io/ssl-redirect: "false"
 ```
 
-[https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora][1]
+[1]: https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
+[2]: https://segmentfault.com/a/1190000011707194
