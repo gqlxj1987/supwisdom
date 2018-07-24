@@ -27,7 +27,9 @@ E:
 `chmod 777 /var/log`
 `chmod 777 /var/lib/docker/containers`
 
-`git clone https://github.com/kubernetes/kubernetes/tree/release-1.10`
+F:
+将svn中k8s/ingress/efk_1.10.3.tar 解压在一个目录下，然后再这个目录下，按顺序执行以下命令。
+
 ```
 $ kubectl create -f es-statefulset.yaml
 $ kubectl create -f es-service.yaml
@@ -36,13 +38,13 @@ $ kubectl create -f fluentd-es-ds.yaml
 $ kubectl create -f kibana-deployment.yaml
 $ kubectl create -f kibana-service.yaml
 ```
-F:
+G:
 ```
 kubectl exec -it <elastic-logging pod> -n kube-system -- /bin/bash
 curl -XPUT 'http://elasticsearch-logging:9200/_cluster/settings' -H 'Content-Type: application/json' -d '{ "transient": { "cluster.routing.allocation.enable": "all" } }'
 ```
 
-G:
+H:
 ```
 $ kubectl proxy
 $ firefox http://localhost:8001/api/v1/namespaces/kube-system/services/kibana-logging/proxy
