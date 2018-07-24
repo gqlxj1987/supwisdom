@@ -1,16 +1,16 @@
 ﻿## 安装EFK
 
 A：
-1) 先从本地机下载elastic search： 
+ - 先从本地机下载elastic search： 
 ```
 docker pull gcr.mirrors.ustc.edu.cn/google-containers/elasticsearch:v6.2.5
 ```
-&nbsp; 2) 
+ -  
 ```
 docker save -o elasticsearch.tar gcr.mirrors.ustc.edu.cn/google-containers/elasticsearch:v6.2.5 
 ```
-&nbsp; 3) scp tar文件到安装k8s的虚拟机上，
-&nbsp; 4) `docker load -i <tar文件>` 
+ - scp tar文件到安装k8s的虚拟机上，
+ - `docker load -i <tar文件>` 
 
 B： 
 `es-statefulset.yaml: image` 改为 `gcr.mirrors.ustc.edu.cn/google-containers/elasticsearch:v6.2.5`
