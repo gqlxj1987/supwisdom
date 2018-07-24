@@ -27,12 +27,14 @@
 ```
 
 然后， 
-     #装载修改后的参数
-     `systemctl daemon-reload`
-	 #重新启动docker
+     
+装载修改后的参数
+  `systemctl daemon-reload`
+	
+重新启动docker
      `systemctl restart docker` 
 
- 用docker info命令来确认最后一行Registries:是否包含似有上面的仓库地址
+用`docker info`命令来确认最后一行Registries:是否包含似有上面的仓库地址
 
 
 ​	 
