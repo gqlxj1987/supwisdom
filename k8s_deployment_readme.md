@@ -1,6 +1,6 @@
 
 ## A 前提
- - centOS 7.3 或 以上安装 java， openjdk 8 或 Oracle jdk 8  参看 [参考文献][1]      
+ - centOS 7.3 或 以上安装 java， openjdk 8 或 Oracle jdk 8  参看 [参考文献] [1]      
  - &nbsp;安装 docker， yum install -y docker 
  - &nbsp; k8s.gcr.io 和 gcr.io    对应的国内镜像是 gcr.mirrors.ustc.edu.cn/google-containers
 
@@ -94,7 +94,7 @@ kubectl apply -f datalook_core_svc.yaml
 
 ## H 参考文献和视频
 
-[H][how to install java on centos and fedora]
+[how to install java on centos and fedora][1]
     
 2. https://segmentfault.com/a/1190000011707194
 
