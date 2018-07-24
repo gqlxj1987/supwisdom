@@ -94,13 +94,13 @@ kubectl apply -f datalook_core_svc.yaml
 
 ## H 参考文献和视频
 
-[how to install java on centos and fedora][1]
+1. [how to install java on centos and fedora][1]
     
-[kubernetes 离线包安装指南][2]
+1. [kubernetes 离线包安装指南][2]
 
-3. https://github.com/trisberg/boot-k8s-microservices/tree/s1p2017
+1. [springboot 和 k8s][3]
 
-4. https://medium.com/@maumribeiro/running-your-own-docker-images-in-minikube-for-windows-ea7383d931f6
+1. [running your own docker images in minikube for windows][4]
 
 5. https://blog.csdn.net/w1491413492/article/details/78827819
 
@@ -142,3 +142,5 @@ kubectl apply -f datalook_core_svc.yaml
 
 [1]: https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
 [2]: https://segmentfault.com/a/1190000011707194
+[3]: https://github.com/trisberg/boot-k8s-microservices/tree/s1p2017
+[4]: https://medium.com/@maumribeiro/running-your-own-docker-images-in-minikube-for-windows-ea7383d931f6
